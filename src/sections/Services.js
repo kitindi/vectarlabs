@@ -1,11 +1,18 @@
 import React from "react";
-import { PaintBucket, CodeBlock, Plugs } from "@phosphor-icons/react";
+import {
+  PaintBucket,
+  CodeBlock,
+  Plugs,
+  Buildings,
+  Cloud,
+  CodesandboxLogo,
+} from "@phosphor-icons/react";
 
 const Services = () => {
   return (
-    <section className="">
+    <section className="py-10">
       <div className="w-full sm:max-w-7xl mx-auto px-8  sm:px-20 py-6 sm:py-12">
-        <h1 className="text-xl font-semibold sm:text-4xl max-w-3xl mb-4 text-slate-900">
+        <h1 className="text-xl font-bold sm:text-4xl max-w-3xl mb-4 text-slate-900">
           We blend our great experties & design engineering to Unleash your
           business’s full potential
         </h1>
@@ -18,8 +25,8 @@ const Services = () => {
             <div className="flex-2">
               <h3 className="text-sm font-medium">Product Design</h3>
               <p className="text-xs py-2">
-                We prioritize your business and users needs and we only design
-                for them .
+                We use user-centric design.We prioritize your business and users
+                needs and we only design for them .
               </p>
             </div>
           </div>
@@ -52,7 +59,7 @@ const Services = () => {
           <div className="p-4 flex gap-4">
             <div className="flex-1">
               {" "}
-              <PaintBucket size={26} color="#4E43CA" />
+              <Buildings size={26} color="#4E43CA" />
             </div>
             <div className="flex-2">
               <h3 className="text-sm font-medium">IT Infastructure</h3>
@@ -65,7 +72,7 @@ const Services = () => {
           <div className="p-4 flex gap-4">
             <div className="flex-1">
               {" "}
-              <PaintBucket size={26} color="#4E43CA" />
+              <CodesandboxLogo size={26} color="#4E43CA" />
             </div>
             <div className="flex-2">
               <h3 className="text-sm font-medium ">IT Help Desk Support</h3>
@@ -78,7 +85,7 @@ const Services = () => {
           <div className="p-4 flex gap-4">
             <div className="flex-1">
               {" "}
-              <PaintBucket size={26} color="#4E43CA" />
+              <Cloud size={26} color="#4E43CA" />
             </div>
             <div className="flex-2">
               <h3 className="text-sm font-medium ">Cloud Infrastructure</h3>

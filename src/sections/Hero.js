@@ -8,7 +8,7 @@ const Hero = () => {
       <div class=" mx-auto max-w-7xl px-4 sm:px-16 py-4 sm:py-0">
         <div className=" flex justify-between items-center">
           <div className=" ">
-            <img src={darkmodelogo} alt="" className="h-4 sm:h-6" />
+            <img src={darkmodelogo} alt="" className="h-4 sm:h-5" />
           </div>
           <div className="sm:hiddedn"></div>
           <div className="hidden sm:block">
@@ -46,14 +46,17 @@ const Hero = () => {
       </div>
       <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-20 lg:pt-20">
         <div class="flex flex-col w-full mb-4 text-center">
-          <h1 class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-slate-200 md:text-5xl lg:text-6xl lg:max-w-7xl">
-            Building digital products that <br class="hidden lg:block" />
-            empowers your business to thrive.
-          </h1>
+          <div>
+            <h1 class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-slate-200 md:text-5xl lg:text-6xl lg:max-w-7xl">
+              We are Building tech products that empowers{" "}
+              {/* <br class="hidden lg:block" /> */}
+              your business to thrive.
+            </h1>
+          </div>
 
           <p class="max-w-xl mx-auto mt-8 text-sm sm:text-base tracking-tighter text-center text-slate-100">
-            We are a full digital service agency, crafting cutting-edge software
-            solutions for enterprises, startups and organizations.
+            We are a full digital service agency, crafting cutting-edge
+            innovative solutions for enterprises, startups and organizations.
           </p>
 
           <Link
