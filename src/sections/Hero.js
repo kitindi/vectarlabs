@@ -67,10 +67,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div class="px-8 py-28 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-20 sm:pt-52 lg:pb-10">
+      <div class="px-8 pt-44 pb-8 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-20 sm:pt-52 lg:pb-10">
         <div class="flex flex-col w-full mb-4 text-center">
           <div>
-            <h1 class="  max-w-6xl text-4xl font-bold tracking-tighter text-slate-200 sm:text-5xl lg:text-7xl lg:max-w-7xl">
+            <h1 class="  max-w-8xl text-4xl font-bold tracking-tighter text-slate-200 sm:text-5xl lg:text-7xl lg:max-w-7xl">
               We are Building tech products that empowers{" "}
               {/* <br class="hidden lg:block" /> */}
               your business to thrive.
