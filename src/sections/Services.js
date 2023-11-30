@@ -16,7 +16,7 @@ const Services = () => {
           We blend our great experties & design engineering to Unleash your
           business’s full potential
         </h1>
-        <div className="flex flex-col  gap-2 sm:grid sm:grid-cols-3 sm:gap-4 py-8 ">
+        <div className="flex flex-col  gap-2 sm:grid sm:grid-cols-2 lg:grid-cols-3  sm:gap-4 py-8 ">
           <div className="p-4 flex gap-4">
             <div className="flex-1">
               <div className="h-8 w-8 rounded-md bg-[#21F06E] flex justify-center items-center">
