@@ -1,6 +1,7 @@
 import React from "react";
 import darkmodelogo from "../images/darkmodelogo.svg";
 import { LinkedinLogo, FacebookLogo, CaretUp } from "@phosphor-icons/react";
+import { Link, animateScroll as scroll, scrollSpy } from "react-scroll";
 const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
@@ -33,7 +34,17 @@ const Footer = () => {
         </h3>
         <div className="flex flex-col sm:flex-row sm:justify-between  w-full sm:py-12">
           <div className="pt-10 pb-5 sm:py-0">
-            <img src={darkmodelogo} alt="" className="h-4 sm:h-5" />
+            <Link
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={700}
+              className="cursor-pointer"
+            >
+              {" "}
+              <img src={darkmodelogo} alt="" className="h-4 sm:h-5" />
+            </Link>
             <p className="text-[10px] text-slate-400 py-2">
               Building sustainable solutions
             </p>
@@ -42,7 +53,16 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-slate-300">Company</h3>
             <ul>
               <li className="text-slate-400 text-[10px] my-2">
-                <a href="http://">About us</a>
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={700}
+                  className="cursor-pointer"
+                >
+                  About us
+                </Link>
               </li>
               <li className="text-slate-400 text-[10px] my-2">
                 <a href="http://">Careers</a>
@@ -75,9 +95,16 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="absolute bottom-10 right-6 h-5 w-5 sm:h-8 sm:w-8 rounded-full bg-[#1f1f1d] border-2 border-[#21F06E] cursor-pointer flex justify-center items-center">
+      <Link
+        to="hero"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={700}
+        className="absolute bottom-10 right-6 h-5 w-5 sm:h-8 sm:w-8 rounded-full bg-[#1f1f1d] border-2 border-[#21F06E] cursor-pointer flex justify-center items-center"
+      >
         <CaretUp size={15} color="#dedede" weight="fill" />
-      </div>
+      </Link>
     </section>
   );
 };

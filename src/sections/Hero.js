@@ -4,7 +4,7 @@ import darkmodelogo from "../images/darkmodelogo.svg";
 
 const Hero = () => {
   return (
-    <section className="bg-[#1D1D1F] w-full">
+    <section className="bg-[#1D1D1F] w-full" id="hero">
       <div class=" mx-auto max-w-7xl px-4 sm:px-16 py-4 sm:py-0">
         <div className=" flex justify-between items-center">
           <div className=" ">
