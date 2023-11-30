@@ -4,7 +4,7 @@ import softfy from "../images/softfy.png";
 const Work = () => {
   return (
     <section className="w-full   " id="work">
-      <div className="max-w-7xl mx-auto px-8 pt-10 sm:px-10 sm:pt-16">
+      <div className="max-w-7xl mx-auto px-4 pt-10 sm:px-10 sm:pt-16">
         <h1 className="text-4xl sm:text-6xl text-slate-200 font-bold py-8">
           Our Impactful Projects
         </h1>

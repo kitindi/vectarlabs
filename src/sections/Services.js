@@ -11,7 +11,7 @@ import {
 const Services = () => {
   return (
     <section className="py-10" id="services">
-      <div className="w-full sm:max-w-7xl mx-auto px-8  sm:px-10 py-6 sm:py-12">
+      <div className="w-full sm:max-w-7xl mx-auto px-4  sm:px-10 py-6 sm:py-12">
         <h1 className="text-4xl font-bold sm:text-6xl max-w-5xl mb-4 leading-tighter text-slate-200 sm:py-10">
           We blend our great experties & design engineering to:
         </h1>

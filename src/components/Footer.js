@@ -16,7 +16,7 @@ const Footer = () => {
       className="w-full pt-8 sm:pt-14 pb-2 bg-[#1D1D1F] relative"
       id="contact"
     >
-      <div className="max-w-7xl mx-auto px-8 sm:px-10 py-10 sm:pt-14 sm:pb-3 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-10 py-10 sm:pt-14 sm:pb-3 ">
         <div className="flex flex-col sm:grid sm:grid-cols-12 gap-2  mb-10  py-10">
           <div className="sm:col-span-8">
             {" "}

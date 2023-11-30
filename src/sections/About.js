@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className="bg-[#F2F1EA]" id="about">
       <div className="w-full py-8">
-        <div className="max-w-7xl mx-auto sm:flex sm:flex-col lg:grid lg:grid-cols-12 place-content-center gap-10 px-8 sm:px-10 py-10 sm:py-8">
+        <div className="max-w-7xl mx-auto sm:flex sm:flex-col lg:grid lg:grid-cols-12 place-content-center gap-10 px-4 sm:px-10 py-10 sm:py-8">
           <div className="col-span-6 ">
             <h1 className="text-slate-900 font-bold text-6xl"> We are</h1>
             <ul className="py-20 flex flex-col gap-16">

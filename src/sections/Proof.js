@@ -3,7 +3,7 @@ import React from "react";
 const Proof = () => {
   return (
     <section className="w-full ">
-      <div className="max-w-7xl mx-auto py-10 sm:px-26 px-8">
+      <div className="max-w-7xl mx-auto py-10 sm:px-26 px-4">
         <h2 className="text-2xl sm:text-4xl text-center font-semibold text-slate-200 ">
           Our amazing clients
         </h2>
