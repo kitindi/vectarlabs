@@ -8,7 +8,7 @@ const Hero = () => {
       <div class=" mx-auto max-w-7xl px-4 sm:px-16 py-4 sm:py-0">
         <div className=" flex justify-between items-center">
           <div className=" ">
-            <img src={darkmodelogo} alt="" className="h-4 sm:h-5" />
+            <img src={darkmodelogo} alt="" className="h-7 sm:h-7" />
           </div>
           <div className="sm:hiddedn"></div>
           <div className="hidden sm:block">
@@ -70,7 +70,7 @@ const Hero = () => {
       <div class="px-8 py-28 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-20 sm:pt-52 lg:pb-10">
         <div class="flex flex-col w-full mb-4 text-center">
           <div>
-            <h1 class="max-w-5xl text-4xl font-bold leading-none tracking-tighter text-slate-200 sm:text-5xl lg:text-7xl lg:max-w-7xl">
+            <h1 class="  max-w-6xl text-4xl font-bold tracking-tighter text-slate-200 sm:text-5xl lg:text-7xl lg:max-w-7xl">
               We are Building tech products that empowers{" "}
               {/* <br class="hidden lg:block" /> */}
               your business to thrive.

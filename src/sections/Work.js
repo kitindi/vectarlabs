@@ -4,12 +4,12 @@ import softfy from "../images/softfy.png";
 const Work = () => {
   return (
     <section className="w-full   " id="work">
-      <div className="max-w-7xl mx-auto px-8 pt-10 sm:px-20 sm:pt-16">
-        <h1 className="text-xl sm:text-4xl text-slate-200 font-bold">
+      <div className="max-w-7xl mx-auto px-8 pt-10 sm:px-10 sm:pt-16">
+        <h1 className="text-4xl sm:text-6xl text-slate-200 font-bold py-8">
           Our Impactful Projects
         </h1>
       </div>
-      <div className="w-full flex flex-col sm:grid sm:grid-cols-2 gap-3 pX-8 py-14">
+      <div className="w-full flex flex-col sm:grid sm:grid-cols-2 gap-3 pX-8 py-16">
         <div className="relative">
           <div className="absolute top-0 left-0 w-full z-10 bg-[#101117] opacity-90 h-full hover:opacity-0 transition-opacity ease-out cursor-pointer"></div>
           <img src={learnly} alt="" className="h-full" />
