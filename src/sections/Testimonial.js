@@ -3,19 +3,19 @@ import { Quotes } from "@phosphor-icons/react";
 
 const Testimonial = () => {
   return (
-    <section className="w-full h-screen py-20 px-8">
+    <section className="w-full py-20 px-8 bg-[#1D1D1F]">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-xl sm:text-4xl font-bold">
+        <h1 className="text-xl sm:text-4xl font-bold mb-5 text-slate-200">
           The vectarLab effect:
           <br /> client testimonials
         </h1>
-        <div className="grid grid-cols-2 px-10 gap-5 py-10">
-          <div className="bg-[#1f1f1f]  rounded-md px-5 py-8">
+        <div className="flex flex-col gap-10 sm:grid sm:grid-cols-2 sm:px-10 sm:gap-5 sm:py-10">
+          <div className="  rounded-md px-5 py-8 bg-[#232A30]">
             <span>
-              <Quotes size={32} color="#4E43CA" weight="fill" />
+              <Quotes size={20} color="#FFFFFF" weight="fill" />
             </span>
             <div>
-              <p className="text-slate-200 text-sm">
+              <p className="text-slate-200 text-xs">
                 “The design is not only visually stunning but also highly
                 functional. . I've received numerous compliments from customers
                 about the website's sleek design. It has truly elevated my
@@ -36,15 +36,14 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <hr className="w-full bg-gray-600" />
             </div>
           </div>
-          <div className="bg-[#1f1f1f]  rounded-md px-5 py-8">
+          <div className=" rounded-md px-5 py-8 bg-[#232A30]">
             <span>
-              <Quotes size={32} color="#4E43CA" weight="fill" />
+              <Quotes size={20} color="#FFFFFF" weight="fill" />
             </span>
             <div>
-              <p className="text-slate-200 text-sm">
+              <p className="text-slate-200 text-xs">
                 “The design is not only visually stunning but also highly
                 functional. . I've received numerous compliments from customers
                 about the website's sleek design. It has truly elevated my
@@ -65,7 +64,6 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <hr className="w-full bg-gray-600" />
             </div>
           </div>
         </div>

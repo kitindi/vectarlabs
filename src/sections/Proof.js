@@ -2,7 +2,7 @@ import React from "react";
 
 const Proof = () => {
   return (
-    <section className="w-full bg-[rgb(31,31,31)]">
+    <section className="w-full ">
       <div className="max-w-7xl mx-auto py-10 sm:px-20 px-8">
         <h2 className="text-xl sm:text-2xl text-center font-bold text-slate-200 ">
           Our amazing clients
