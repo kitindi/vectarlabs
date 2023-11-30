@@ -13,11 +13,11 @@ const Footer = () => {
   let year = d.getFullYear();
   return (
     <section
-      className="w-full pt-8 sm:pt-14 pb-2 bg-[#1D1D1F] pt-30 relative"
+      className="w-full pt-8 sm:pt-14 pb-2 bg-[#1D1D1F] relative"
       id="contact"
     >
       <div className="max-w-7xl mx-auto px-8 sm:px-10 py-10 sm:pt-14 sm:pb-3 ">
-        <div className="flex flex-col sm:grid sm:grid-cols-12 gap-2  mb-20  py-20">
+        <div className="flex flex-col sm:grid sm:grid-cols-12 gap-2  mb-10  py-10">
           <div className="sm:col-span-8">
             {" "}
             <h2 className="text-3xl sm:text-6xl font-bold text-slate-200 text-left">
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row sm:justify-between  w-full sm:py-12">
-          <div className="pt-10 pb-5 sm:py-0">
+          <div className="pt-6 pb-5 sm:py-0">
             <Link
               to="hero"
               spy={true}
