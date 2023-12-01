@@ -86,7 +86,7 @@ const Hero = () => {
                 to="contact"
                 className="text-lg text-slate-900 bg-[#21F06E] py-2 px-8 rounded-sm font-bold cursor-pointer"
               >
-                Let's Talk
+                Let's Talk Solutions
               </Link>
             </ul>
           </div>
@@ -180,7 +180,7 @@ const Hero = () => {
             smooth={true}
             offset={50}
             duration={800}
-            className="text-xl text-slate-900 bg-[#21F06E] py-3 px-20 rounded-sm font-bold w-fit mx-auto my-7 cursor-pointer"
+            className="text-xl text-slate-900 bg-[#21F06E] py-3 px-14 rounded-sm font-bold w-fit mx-auto my-7 cursor-pointer"
           >
             Let's Talk Solutions
           </Link>
