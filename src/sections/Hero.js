@@ -163,9 +163,9 @@ const Hero = () => {
         <div class="flex flex-col w-full mb-4 text-center">
           <div>
             <h1 class="  max-w-8xl text-4xl font-bold tracking-tighter text-slate-200 sm:text-5xl lg:text-7xl lg:max-w-7xl">
-              We are Building tech products that empowers{" "}
+              Building tech products that empowers{" "}
               {/* <br class="hidden lg:block" /> */}
-              your business to thrive.
+              your business to thrive sustainably.
             </h1>
           </div>
 
