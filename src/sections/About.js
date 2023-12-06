@@ -42,7 +42,7 @@ const About = () => {
                   </p>
                   <p className="text-lg mt-4 text-slate-800">
                     Our clients needs come first. We feel and understand the the
-                    pain of working with innefficient solutions, we are driven
+                    pain of working with inefficient solutions, we are driven
                     towards solving them.
                   </p>
                 </div>
