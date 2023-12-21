@@ -30,8 +30,8 @@ const Testimonial = () => {
                   <p className="text-lg font-medium  text-slate-200">
                     Mather Douglas
                   </p>
-                  <p className="text-lg  text-slate-400 py-2">
-                    Director | Golden Trusty
+                  <p className="text-lg  text-slate-400 ">
+                    Director, Golden Trusty
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Testimonial = () => {
               </p>
               <div className="flex gap-4 items-center pt-8 pb-2">
                 <img
-                  src="https://userstock.io/data/wp-content/uploads/2017/07/chelsea-ferenando-201355-300x300.jpg"
+                  src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-300x300.jpg"
                   alt=""
                   className="h-14 w-14 rounded-full"
                 />
@@ -58,8 +58,8 @@ const Testimonial = () => {
                   <p className="text-lg font-medium  text-slate-200">
                     James Holmes
                   </p>
-                  <p className="text-lg  text-slate-400 py-2">
-                    Kwetu Consultant
+                  <p className="text-lg  text-slate-400 ">
+                    CEO, Kwetu Consultant
                   </p>
                 </div>
               </div>
