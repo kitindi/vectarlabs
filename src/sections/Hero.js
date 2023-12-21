@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll, scrollSpy } from "react-scroll";
 import Navbar from "../components/Navbar";
 
 const Hero = () => {
@@ -22,11 +22,11 @@ const Hero = () => {
           </p>
 
           <Link
-            to="contact"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={800}
+            offset={5}
+            duration={700}
+            to="contact"
             className="text-xl text-slate-900 bg-[#21F06E] py-3 px-14 rounded-sm font-bold w-fit mx-auto my-7 cursor-pointer"
           >
             Let's Talk Solutions

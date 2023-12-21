@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <section className="w-full   relative py-20">
       <div className="max-w-6xl mx-auto px-4 pt-10 sm:px-10 sm:pt-16">
-        <div className="w-full h-96 grid grid-cols-12 py-24">
+        <div className="w-full h-96 grid grid-cols-12 py-24 ">
           <div className="col-span-6 flex flex-col justify-center">
             <img src={project?.logo} alt="" className="w-52 mb-5" />
           </div>
@@ -20,7 +20,7 @@ const Project = () => {
             <p className="text-slate-200 text-lg">{project?.description[0]}</p>
           </div>
         </div>
-        <div className="flex flex-col sm:grid sm:grid-cols-2 gap-3">
+        <div className="flex flex-col sm:grid sm:grid-cols-2 gap-3 h-screen">
           {project?.images.shots.map((image, i) => (
             <div>
               <img src={image} alt="" />
@@ -29,10 +29,10 @@ const Project = () => {
         </div>
         <div className="grid grid-cols-12 gap-3 h-screen py-48">
           <div className="col-span-6">
-            <img src={project?.images?.features[0]} alt="" />
+            <h2 className="text-slate-300 text-4xl">Features</h2>
           </div>
           <div className="col-span-6">
-            <h2 className="text-slate-300 text-4xl">Features</h2>
+            <img src={project?.images?.features[0]} alt="" />
           </div>
         </div>
       </div>
