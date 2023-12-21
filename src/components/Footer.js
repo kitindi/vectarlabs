@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col sm:grid sm:grid-cols-12 gap-2  mb-10  py-10">
           <div className="sm:col-span-8">
             {" "}
-            <h2 className="text-3xl sm:text-6xl font-bold text-slate-200 text-left">
+            <h2 className="text-3xl sm:text-5xl font-semibold text-slate-200 text-left">
               {" "}
               Have you got an idea in mind?
             </h2>

@@ -62,9 +62,7 @@ const Proof = () => {
             <p className="text-lg font-bold text-slate-200">Space Me</p>
           </li>
           <li>
-            <p className="text-lg font-bold text-slate-200">
-              Golden Trust Schools
-            </p>
+            <p className="text-lg font-bold text-slate-200">Golden Trusty</p>
           </li>
         </ul>
       </div>

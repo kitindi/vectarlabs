@@ -12,7 +12,7 @@ const About = () => {
       <div className="w-full py-8">
         <div className="max-w-7xl mx-auto sm:flex sm:flex-col lg:grid lg:grid-cols-12 place-content-center gap-10 px-4 sm:px-10 py-10 sm:py-8">
           <div className="col-span-6 ">
-            <h1 className="text-slate-900 font-bold text-6xl"> We are</h1>
+            <h1 className="text-slate-900 font-semibold text-5xl"> We are</h1>
             <ul className="py-20 flex flex-col gap-16">
               <li className="grid grid-cols-12">
                 <div className="h-14 w-14 rounded-md bg-[#21F06E] flex justify-center items-center col-span-2">

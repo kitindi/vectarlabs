@@ -11,12 +11,13 @@ export const projects = [
     logo: logo,
     title: "Progress App",
     description: [
-      "The progress app is a cuting-edge solution that simplifies students performance record keeping. Enables teachers avaoid the manual way of  keeping record of students progress using papers.",
+      "The progress app is a cuting-edge software application that enables teacher to keep record of student progress efficiently. It is designed to help teacher leave the manually work of calculating average, generate grades and student's position in the class performance",
       "The progress app is your one stop service to streamline the students performance tracking, aalowing you to focus on teaching the concepts.",
     ],
     images: {
       shots: [signin, signup, onboarding, gradebook],
-      features: [dashboard],
+      featureImg: [dashboard],
+      featureText: [""],
     },
   },
   {
@@ -28,7 +29,8 @@ export const projects = [
     ],
     images: {
       shots: [signin, signup, onboarding, gradebook],
-      features: [],
+      featureImg: [],
+      featureText: [""],
     },
   },
 ];

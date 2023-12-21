@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <section className="w-full bg-[#1D1D1F]">
       <div className="max-w-7xl mx-auto py-20 px-8 sm:px-10">
-        <h1 className="text-4xl sm:text-6xl font-bold mb-5 text-slate-200 py-8">
+        <h1 className="text-4xl sm:text-5xl font-semibold mb-5 text-slate-200 py-8">
           Client testimonials
         </h1>
         <div className="flex flex-col gap-10 sm:grid sm:grid-cols-2 sm:px-10 sm:gap-5 sm:py-10">
@@ -16,7 +16,7 @@ const Testimonial = () => {
             <div>
               <p className="text-slate-200 text-xl">
                 “The design is not only visually stunning but also highly
-                functional. . I've received numerous compliments from customers
+                functional. I've received numerous compliments from customers
                 about the website's sleek design. It has truly elevated my
                 online presence and boosted my sales! ”
               </p>
@@ -28,10 +28,10 @@ const Testimonial = () => {
                 />
                 <div>
                   <p className="text-lg font-medium  text-slate-200">
-                    Ritha Douglas
+                    Mather Douglas
                   </p>
                   <p className="text-lg  text-slate-400 py-2">
-                    Director | Golden Trust
+                    Director | Golden Trusty
                   </p>
                 </div>
               </div>
@@ -43,10 +43,10 @@ const Testimonial = () => {
             </span>
             <div>
               <p className="text-slate-200 text-xl">
-                “The design is not only visually stunning but also highly
-                functional. . I've received numerous compliments from customers
-                about the website's sleek design. It has truly elevated my
-                online presence and boosted my sales! ”
+                “I had a good time working with you, I like your project planing
+                and the attention paid to the project. I was involved from the
+                begining to the end of the project to ensure that I get the
+                product to my level of satisfaction ”
               </p>
               <div className="flex gap-4 items-center pt-8 pb-2">
                 <img
@@ -56,10 +56,10 @@ const Testimonial = () => {
                 />
                 <div>
                   <p className="text-lg font-medium  text-slate-200">
-                    Ritha Douglas
+                    James Holmes
                   </p>
                   <p className="text-lg  text-slate-400 py-2">
-                    Director | Golden Trust
+                    Kwetu Consultant
                   </p>
                 </div>
               </div>
