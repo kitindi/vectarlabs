@@ -44,8 +44,7 @@ export const projects = [
     id: 2,
     title: "Learnly HQ",
     description: [
-      "The progress app is a cuting-edge solution for manual performance tracking. helps teacher who find it hard to master excel and outomate the whole process of grade and rank making.",
-      "The progress app is your one stop service to streamline the students performance tracking, aalowing you to focus on teaching the concepts.",
+      "The website that gives the opportunity to students who are looking for expert subject teacher trainings. It is a single martket place where expert teachers and students meet and schedule learning sessions easily and affordably",
     ],
     images: {
       shots: [homepage, aboutus, teachers, packages],
