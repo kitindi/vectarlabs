@@ -41,7 +41,7 @@ const Services = () => {
             </div>
             <div className="flex-2">
               <h3 className="text-lg sm:text-2xl font-medium leading-tighter text-slate-200">
-                Development
+                Product Development
               </h3>
               <p className="text-lg py-4 tracking-tighter text-slate-300">
                 We turn your awesome ides into fully functional web or mobile
